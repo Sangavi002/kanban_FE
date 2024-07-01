@@ -42,7 +42,7 @@ export const Login = () => {
             <Button onClick={() => navigate("/")}>Register</Button>
             </Flex>
         </Box>
-       <Box margin="50px 50px" p="25px" border="1px solid">
+       <Box ml="auto" mr="auto" mt="100px" w="30%" p="25px" border="1px solid">
             <Heading size="md" textAlign="center">Login</Heading>
             <form onSubmit={handleSubmit}>
                 <Flex direction={"column"}>

@@ -44,7 +44,7 @@ export const Register = () => {
             <Button onClick={() => navigate("/login")}>Login</Button>
             </Flex>
         </Box>
-        <Box margin="130px 450px" p="25px" border="1px solid">
+        <Box ml="auto" mr="auto" mt="100px" w="30%" p="25px" border="1px solid">
             <Heading size="md" textAlign="center">Register</Heading>
             
             <form onSubmit={handleSubmit}>
@@ -67,7 +67,7 @@ export const Register = () => {
                         value = {formData.password} 
                         mb = "15px" p="10px"
                         onChange={handleValue} required/>
-                <Select placeholder="Select role option" size='md'
+                <Select placeholder="Select role option" p="10px" size='md'
                         value = {formData.role} 
                         mb = "15px" 
                         onChange={handleRole}>
